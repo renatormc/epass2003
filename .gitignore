@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Binários de terceiros (ex.: instalador do Assinador Serpro)
+/assinador-installer
+
+# PDFs de teste e assinados gerados localmente
+*.pdf
+
+# Configurações locais do Claude Code
+.claude/settings.local.json
